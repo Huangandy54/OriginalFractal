@@ -10,7 +10,6 @@ public void draw()
 {
 	background(0);
 	Fractal(x, y, 800);
-	println("x: "+x);
 	if (x>500) {
 		rev=true;
 	}
